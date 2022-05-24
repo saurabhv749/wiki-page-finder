@@ -1,0 +1,26 @@
+{
+  "name": "wiki-page-finder",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build --no-source-maps --dist-dir build ./src/index.html"
+  },
+  "keywords": [
+    "Wikipedia",
+    "Rest API"
+  ],
+  "author": "saurabh verma",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "parcel": "^2.5.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-icons": "^4.3.1"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "process": "^0.11.10"
+  }
+}
